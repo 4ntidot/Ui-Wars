@@ -17,17 +17,20 @@
 		<meta property="og:keywords" content="design, ui, interface, contest, battle, ui-wars, scratch">
 	</head>
 	<body>
-		<nav id="topbar" class="topbar">
+		<nav class="topbar">
 		</nav>
 		<header class="header">
 			<h1>Ui-Wars</h1>
 			<h4>The best designer.</h4>
+			<button class="filled" onClick="jumpTo(forumLink)">Participate</button>
+			<button onClick="jumpTo('#content')">Read More</button>
 		</header>
-		<div class="content">
+		<div id="content" class="content">
 		</div>
-		<footer id="footer" class="footer">
+		<footer class="footer">
 		</footer>
 		
 		<script src="./ts/page.ts" onLoad="displayContent('.')"></script>
+		<scrip tsrc="./ts/index.ts"></script>
 	</body>
 </html>
