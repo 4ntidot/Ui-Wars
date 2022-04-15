@@ -1,0 +1,5 @@
+:root {
+	--primary: linear-gradient(304deg, #0054FF, #CD00FF);
+	--secondary: linear-gradient(304deg, #FB00FF, #FF4300);
+	--tertiary: #0054FF;
+}
