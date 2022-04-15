@@ -1,0 +1,19 @@
+.topbar {
+	background-color: var(--tertiary);
+	color: #FFFFFF;
+	height: 50px;
+	width: 92%;
+	padding: 4%;
+	position: fixed;
+	top: 0;
+}
+.topbar a {
+	color: #FFFFFF;
+	height: 34px;
+	margin: 4px;
+	padding: 4px;
+	font-size: 1rem;
+}
+.topbar a:hover {
+	background-color: #2F2F2F22;
+}
