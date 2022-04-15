@@ -1,6 +1,6 @@
 var currentPath = "";
 
-function displayContent(path) {
+function displayContent(path: string) {
 	// The path variable corresponds to the path from the current page to the root.
 	// We use /directory/index.html for every app or file manager that doesn’t understand /directory directly.
 	var currentPath: string = path;
