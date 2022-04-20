@@ -22,15 +22,31 @@
 		<header class="header">
 			<h1>Ui-Wars</h1>
 			<h4>The best designer.</h4>
+			<p>Ui-wars is a big contest made on Scratch that involves random people to choose the designer they prefer.</p>
 			<button class="filled" onClick="jumpTo(forumLink)">Participate</button>
 			<button onClick="jumpTo('#content')">Read More</button>
 		</header>
 		<div id="content" class="content">
+			<div class="container">
+				<h2 id="create_the_best_interface">Create the best interface!</h2>
+				<p>Seduce the public and get the maximum of the votes!</p>
+			</div>
+			<div class="container">
+				<h2 id="learn_a_lot_of_things">Learn a lot of things!</h2>
+				<p>Get inspired by other websites across the whole web, uses different designs made by other Scratchers, and see much more!</p>
+			</div>
+			<div class="container">
+				<h2 id="participe_now">Participate now!</h2>
+				<p>You can go to <a href="docs">/docs</a> to see how to participate!<br>
+					Show this QR Code to your friends to make them in the Ui-Wars battle too:
+					<img src="../assets/QRCODE.png" id="qrcode">
+				</p>
+			</div>
 		</div>
 		<footer class="footer">
 		</footer>
 		
 		<script src="./ts/page.ts" onLoad="displayContent('.')"></script>
-		<scrip tsrc="./ts/index.ts"></script>
+		<script src="./ts/index.ts"></script>
 	</body>
 </html>
